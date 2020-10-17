@@ -18,12 +18,6 @@ class CalculadoraCientifica:
     pass
 
 [2] - Utilize nomes em minúsculo, separados por underline para funções ou variáveis;
-
-
-
-"""
-
-
 def soma():
     pass
 
@@ -36,6 +30,16 @@ numero = 4
 
 
 numero_impar = 5
+
+
+[3] - Utilize 4 espaços para identação! (Não use tab)
+if 'a' in 'banana':
+    print('tem')
+
+"""
+
+
+
 
 
 
