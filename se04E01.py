@@ -3,6 +3,13 @@
 
 """
 
-num = 10
 
-print("Número inteiro: ", num)
+def main():
+    num = 10
+
+    print("Número inteiro: ", num)
+
+
+if __name__ == '__main__':
+    main()
+

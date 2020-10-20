@@ -4,6 +4,13 @@
 
 """
 
-numero_real = float(input('Digite um numero Real: '))
 
-print(f'Resultado do quadrado do número informado: {numero_real**2}')
+def main():
+
+    numero_real = float(input('Digite um numero Real: '))
+
+    print(f'Resultado do quadrado do número informado: {numero_real**2}')
+
+
+if __name__ == '__main__':
+    main()
