@@ -19,6 +19,7 @@ nome = input('Qual seu nome? ')
 # print('Seja bem-vindo(a) %s' % nome)
 
 # Exemplo de print 'moderno' 3.x
+
 # print('Seja bem-vindo(a) {0}'.format(nome))
 
 # Exemplo de print 'mais atual' 3.7
