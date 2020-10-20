@@ -7,7 +7,6 @@
 
 def main():
     num_real = 10.5
-
     print("Numero Real: ", num_real)
 
 
