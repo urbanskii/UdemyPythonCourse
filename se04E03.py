@@ -6,7 +6,6 @@
 
 
 def main():
-
     primeiro_valor = int(input("Digite o primeiro numero inteiro: "))
     segundo_valor = int(input("Digite o segundo valor inteiro: "))
     tercerio_valor = int(input("Digite o terceiro valor: "))
