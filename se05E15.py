@@ -8,7 +8,6 @@ e R em radianos e π = 3.14
 
 
 def main():
-
     angulo_radiano = float(input('Digite o ângulo em Radiano: '))
     angulo_graus = angulo_radiano * 180/3.14
 
