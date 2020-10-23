@@ -10,7 +10,9 @@ def main():
 
     valor_m_quadrados = float(input('Digite o valor em metros quadrados m²: '))
     valor_acres = valor_m_quadrados * 0.000247
-    print(f'Valor em metros convertido para jardas: {valor_acres}')
+
+    print(f'Valor em metros quadrados m² convertido para acres: {valor_acres:.3f}')
+
 
 
 if __name__ == '__main__':
