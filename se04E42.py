@@ -1,9 +1,7 @@
 """
-
 42 - Receba o salário-base de um funcionário. Calcule e imprima o salário a receber, sabendo-
 se que esse funcionário tem uma gratificação de 5% sobre o salário-base. Além disso,
 ele paga 7% de imposto sobre o salário-base.
-
 """
 
 
@@ -19,7 +17,7 @@ def main():
     salario_base = salario_base - calc_imposto
     salario_base = salario_base + calc_gratificacao
 
-    print(f'Salario liquido: {salario_base}')
+    print(f'Salario liquido: {salario_base:.6}')
     print(f'Gratificação sobre o sálario 5%: {calc_gratificacao}')
     print(f'Desconto imposto 7%: {calc_imposto}')
 
