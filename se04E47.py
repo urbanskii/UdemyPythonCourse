@@ -6,7 +6,6 @@
 
 
 def main():
-
     numero_inteiro = input('Digite um número inteiro de 4 dígitos (de 1000 a 9999): ')
     for p in numero_inteiro:
         print(f'Numero: {p}')
