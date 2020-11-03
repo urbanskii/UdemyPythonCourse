@@ -11,7 +11,9 @@ NúmeroGerado = 321.
 def main():
 
     numero = input('Digite o numero de 3 digitos: ')
-    print(f'Numero invertido: {numero[::-1]}')
+    print(f'Númerolido: {numero}')
+    print(f'Número Gerado: {numero[::-1]}')
+
 
 
 if __name__ == '__main__':
