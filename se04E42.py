@@ -17,7 +17,7 @@ def main():
     salario_base = salario_base - calc_imposto
     salario_base = salario_base + calc_gratificacao
 
-    print(f'Salario liquido: {salario_base:.6}')
+    print(f'Salário liquido: {salario_base:.6}')
     print(f'Gratificação sobre o sálario 5%: {calc_gratificacao}')
     print(f'Desconto imposto 7%: {calc_imposto}')
 
