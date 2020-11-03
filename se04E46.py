@@ -15,5 +15,6 @@ def main():
     print(f'Número Gerado: {numero[::-1]}')
 
 
+
 if __name__ == '__main__':
     main()
