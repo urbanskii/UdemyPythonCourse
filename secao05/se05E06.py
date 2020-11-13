@@ -1,3 +1,4 @@
+
 """
 
 06 - Escreva um programa que, dados dois números inteiros, mostre na tela o maior deles,
@@ -20,4 +21,5 @@ def main():
 
 
 if __name__ == '__main__':
+<<<<<<< main
     main()
