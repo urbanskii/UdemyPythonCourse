@@ -10,3 +10,12 @@ recuperação ( entre 3 e 4,9) ou se foi aprovado. Faça todas as verificações
 
 """
 
+
+def main():
+    nota1 = input('Informe a nota 1')
+
+
+
+
+if __name__ == '__main__':
+    main()
