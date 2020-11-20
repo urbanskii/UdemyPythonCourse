@@ -13,3 +13,23 @@ e, se forem, se é um triângulo escaleno, equilátero ou isóscele, considerand
 
 """
 
+
+def main():
+
+    a = int(input('Digite o primeiro valor: '))
+    b = int(input('Digite o segundo valor: '))
+    c = int(input('Digite o terceiro valor: '))
+
+    if a > 0 and b > 0 and c > 0:
+        if a == b and a == c and b == c:
+            print('Triângulo equilátero')
+        elif a == b or a == c or b == c:
+            print('Triangulo isósceles')
+        elif a != b and a != c and b != c:
+            print('Triângulo escaleno')
+    else:
+        print('Valor incorreto!.')
+
+
+if __name__ == '__main__':
+    main()
