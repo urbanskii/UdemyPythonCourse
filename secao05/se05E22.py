@@ -18,8 +18,10 @@ def main():
     tempo_servico = int(input('Tempo de serviço: '))
 
     try:
-        if idade > 65 or tempo_servico > 30 or tempo_servico > 25:
-            print('Aposentadoria liberada!')
+        if idade > 65 or tempo_servico > 30:
+            print(f'Aposentadoria liberada! {idade} {tempo_servico}')
+        elif idade >= 60 and tempo_servico >= 25:
+            print(f'Aposentadoria liberada! {idade} {tempo_servico}')
         else:
             print('Aposentadoria negada!')
     except ValueError:
