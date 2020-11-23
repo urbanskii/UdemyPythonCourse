@@ -10,6 +10,7 @@ recuperação ( entre 3 e 4,9) ou se foi aprovado. Faça todas as verificações
 
 """
 
+
 def main():
     trabalho_laboratorio = float(input('Informe a nota do trabalho de laboratorio: '))
     avaliacao_semestral = float(input('Informe a nota da avaliação semestral: '))
