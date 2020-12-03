@@ -19,23 +19,22 @@ def main():
         try:
             altura = float(input('Digite a altura: '))
             peso = float(input('Digite o peso: '))
-            print('Aperte enter para sair')
 
-            if altura < 1.20 and peso <= 60 or 60 <= peso <= 90 or peso > 90:
+            if altura < 1.20:
                 if peso <= 60:
                     print(f'Classificação A')
                 elif 60 <= peso <= 90:
                     print(f'Classificação D')
                 elif peso > 90:
                     print(f'Classificação G')
-            elif 1.20 < altura < 1.70 and peso <= 60 or 60 <= peso <= 90 or peso > 90:
+            elif 1.20 < altura < 1.70:
                 if peso <= 60:
                     print(f'Classificação B')
                 elif 60 <= peso <= 90:
                     print(f'Classificação E')
                 elif peso > 90:
                     print(f'Classificação H')
-            elif altura >= 1.70 and peso <= 60 or 60 <= peso <= 90 or peso > 90:
+            elif altura >= 1.70:
                 if peso <= 60:
                     print(f'Classificação C')
                 elif 60 <= peso <= 90:
